@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFA CELL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-left">
+                <img src="item/vvvv.gif" alt="AFA CELL Logo" class="logo"> <!-- Placeholder for logo -->
+                <span class="brand-name">AFA CELL</span>
+            </div>
+            <ul class="navbar-menu">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#product">Produk</a></li>
+                <li><a href="#service">Servis</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="navbar-right">
+                <input type="text" placeholder="Search" class="search-bar">
+                <button>
+                    <i class="fas fa-search"></i>
+                </button>
+                <div class="user-icon" onclick="toggleLoginForm()">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- <div class="running-text">
+        <span>Check out Handphone dan Aksesorisnya hanya dari rumah</span>
+    </div> -->
+    <br>
+    <!-- Main Content -->
+    <section id="home">
+        <h1>Selamat Datang di AFA CELL</h1>
+        <p>Toko HP online & layanan service terpercaya</p>
+        <img src="item/2img.png" alt="">
+        <p>Hallo Users...
+            <br>AFA adalah layanan toko handphone versi online serta layanan service yang murah, terpercaya dan
+            insyaAllah amanah.
+            <br>AFA sendiri terdiri dari huruf inisial penciptanya.
+        </p>
+    </section>
+    <div class="conten">
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>AFA CELL - Products</title>
+            <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+            <link rel="stylesheet" href="styles.css">
+        </head>
+
+        <body>
+
+            
+            <div class="container1">
+                <!-- Product Section -->
+                <section id="product">
+                    <div class="header">
+                        <h1>Produk</h1>
+                        <i class="fas fa-cart-plus"></i>
+                    </div>
+                    <div class="products-container">
+                        <!-- Accessories Section -->
+                        <h2>Aksesoris</h2>
+                        <div class="product-grid">
+                            <div class="product-card">
+                                <img src="item/download__1_-removebg-preview (1).png">
+                                <p>Earphone</p>
+                                <p>Rp40.500</p>
+                                <div class="item"
+                                    onclick="showDetails('Earphone', '','','', 'Earphone dengan kualitas suara jernih.')">
+                                    Details
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/stick.png">
+                                <p>Stick Game</p>
+                                <p>Rp130.000</p>
+                                <div class="item"
+                                    onclick="showDetails('Stek Game','Fitur lengkap','','','')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/holder.png">
+                                <p>Phone Holder</p>
+                                <p>Rp30.000</p>
+                                <div class="item"
+                                    onclick="showDetails('Phone Holder',  'Phone holder berkwalitas','','','')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/OIP__8_-removebg-preview (1).png">
+                                <p>Gantungan Hp</p>
+                                <p>Rp10.000</p>
+                                <div class="item"
+                                    onclick="showDetails('', '', '')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/kabel-mie-kwetiau-removebg-preview.png">
+                                <p>Kabel Data</p>
+                                <p>Rp20.000</p>
+                                <div class="item"
+                                    onclick="showDetails('', '', '')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/OIP__4_-removebg-preview.png">
+                                <p>Tongsis</p>
+                                <p>Rp25.000</p>
+                                <div class="item"
+                                    onclick="showDetails('', '','' )">
+                                    Details</div>
+                            </div>
+                            <br>
+                            <div class="product-card">
+                                <img src="item/OIP__4_-removebg-preview (1).png">
+                                <p>Headphone</p>
+                                <p>Rp40.000</p>
+                                <br>
+                                <div class="item"
+                                    onclick="showDetails('', '', '')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/OIP__6_-removebg-preview (2).png">
+                                <p>Speaker JBL</p>
+                                <p>Rp125.000</p>
+                                <br>
+                                <div class="item"
+                                    onclick="showDetails('', '', '')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/download-removebg-preview (2).png">
+                                <p>Speaker Sony</p>
+                                <p>Rp80.000</p>
+                                <br>
+                                <div class="item"
+                                    onclick="showDetails('', '', '')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/OIP__2_-removebg-preview (1).png">
+                                <p>Gamepade Controler</p>
+                                <p>Rp250.000</p>
+                                <div class="item"
+                                    onclick="showDetails('', '', '')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/OIP__1_-removebg-preview (1).png">
+                                <p>Gamepad Controler</p>
+                                <p>Rp200.000</p>
+                                <div class="item"
+                                    onclick="showDetails('', '', '')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/OIP__9_-removebg-preview (1).png">
+                                <p>Casing</p>
+                                <p>Rp50.000</p>
+                                <br>
+                                <div class="item"
+                                    onclick="showDetails('', '', '')">
+                                    Details</div>
+                            </div>
+                        </div>
+<br>
+<br>
+
+                        <!-- Handphone Section -->
+                        <h2>Handphone</h2>
+                        <div class="product-grid">
+                            <div class="product-card">
+                                <img src="item/download__1_-removebg-preview.png">
+                                <p>Galaxy S20</p>
+                                <p> Rp8.000.000</p>
+                                <div class="item"
+                                    onclick="showDetails('Samsung Galaxy S20','12GB RAM', '1TB Storage','5,000mAh Battery' ,'108MP Camera' ,)">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/2.png">
+                                <p>Samsung S23</p>
+                                <p>Rp8.020.000</p>
+                                <div class="item"
+                                    onclick="showDetails('Samsung S23', '8 GB RAM', '521 GB Storage', '3900 mAh Battrey','108MP Camera')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/download-removebg-preview (1).png">
+                                <p>Poco M3 Pro</p>
+                                <p>Rp2.600.000</p>
+                                <div class="item"
+                                    onclick="showDetails('Xiaomi Poco M3 Pro', '6 GB RAM','128 GB Storage' ,'3900 mAh Battery', '48MP Camera')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/151023-v4-oppo-a78-mobile-phone-hres-4-removebg-preview (1).png">
+                                <p>Oppo A78</p>
+                                <p>Rp3.599.000</p>
+                                <div class="item"
+                                    onclick="showDetails('Oppo A78', '8 GB RAM', '128 GB Storage','5000 mAh Battery','52MP Camera')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/1571136563510-iphone-11-pro-max-removebg-preview.png">
+                                <p>Iphone 11 Pro</p>
+                                <p>Rp15.000.000</p>
+                                <div class="item"
+                                    onclick="showDetails('Iphone 11 Pro', '64 GB RAM,', '512 GB Storage', '4000 mAh Battery','12 MP, f/1.8, 26mm (wide)')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/A16F8224-F8F7-44F3-A1D5-A9A1AEC9F92D-removebg-preview.png">
+                                <p>ROG Phone7</p>
+                                <p>Rp10.999.000</p>
+                                <div class="item"
+                                    onclick="showDetails('ROG Phone7', '16GB RAM', '128 GB Storage','6000 mAh Battery', '50MP + 13MP + 5MP triple rear Camera')">
+                                    Details</div>
+                            </div>
+                            <br>
+                            <div class="product-card">
+                                <img src="item/OIP-removebg-preview (1).png">
+                                <p>Infinix X6710</p>
+                                <p>Rp2.300.000</p>
+                                <div class="item"
+                                    onclick="showDetails('Infinix X6710', '12 GB RAM', '', '256 GB Storage', '5000 mAh')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/oppo-removebg-preview (1).png">
+                                <p>Oppo Reno10</p>
+                                <p>Rp5.999.000</p>
+                                <div class="item"
+                                    onclick="showDetails('Oppo Reno10', '8 GB, 12 GB RAM', '', '256 GB Storage', '46000 mAh','')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/OIP__7_-removebg-preview.png">
+                                <p>Redmi Note12</p>
+                                <p>Rp2.450.000</p>
+                                <div class="item"
+                                    onclick="showDetails('Redmi Note12', '8 GB, 12 GB RAM', '', '128 GB, 256 GB, 512 GB Storage', '5080 mAh ','')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/OIP__6_-removebg-preview (1).png">
+                                <p>Poco X3</p>
+                                <p>3.199.000</p>
+                                <div class="item"
+                                    onclick="showDetails('Poco X3', '6 GB, 8 GB RAM', '', '128 GB, 256 GB Storage', '5160 mAh ','')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/OIP__6_-removebg-preview.png">
+                                <p>Realme V15</p>
+                                <p>Rp3.000.000</p>
+                                <div class="item"
+                                    onclick="showDetails('Realme V15', '6 GB, 8 GB RAM', '', '128 GB Storage','4310 mAh ','')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/OIP__7_-removebg-preview (1).png">
+                                <p>Tecno Pova5</p>
+                                <p>Rp2.300.000</p>
+                                <div class="item"
+                                    onclick="showDetails('Tecno Pova5', '8 GB RAM', '','256 GB Storage','5000 mAh','')">
+                                    Details</div>
+                            </div>
+                            <br>
+                            <div class="product-card">
+                                <img src="item/OIP__12_-removebg-preview.png">
+                                <p>Samsung Z Flip4</p>
+                                <p>Rp4.500.000</p>
+                                <div class="item"
+                                    onclick="showDetails('Samsung Z Flip4', '8 GB RAM','','512 GB Storage','3700 mAh ','')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/download-removebg-preview.png">
+                                <p>Redmi Note11</p>
+                                <p>Rp2.999.000</p>
+                                <br>
+                                <div class="item"
+                                    onclick="showDetails('Redmi Note11', '6 GB, 8 GB RAM', '', '128 GB, 256 GB Storage', '5080 mAh ','')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/OIP__3_-removebg-preview.png">
+                                <p>Nokia Enjoy Max</p>
+                                <p>Rp5.000.000</p>
+                                <div class="item"
+                                    onclick="showDetails('Nokia Enjoy Max', '8 GB RAM', '', ' 256 GB Storage','6000 mAh ','')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/Nokia-6310-5G-removebg-preview.png">
+                                <p>Nokia 6310</p>
+                                <p>Rp1.000.000</p>
+                                <br>
+                                <div class="item"
+                                    onclick="showDetails('Nokia 6310', '6 GB RAM', '', '128 GB Storage','6000 mAh','')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img
+                                    src="item/xiaomi-black-shark-3-pro-7-1-inch-8gb-256gb-5g-smartphone-black-1584669126551-removebg-preview (1).png">
+                                <p>Black Shark3</p>
+                                <p>Rp11.000.000</p>
+                                <br>
+                                <div class="item"
+                                    onclick="showDetails('Black Shark3', ' 12 GB ', '', '256 GB Storage','4720 mAh','')">
+                                    Details</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="item/OIP__10_-removebg-preview (1).png">
+                                <p>Redmi Note 13 Pro </p>
+                                <p>2.500.000</p>
+                                <div class="item"
+                                    onclick="showDetails('Redmi Note 13 Pro', ' 16 GB RAM', ' ',' 512 GB Storage','5100 mAh ','')">
+                                    Details</div>
+                            </div>
+                        </div>
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <h3 id="product-name"></h3>
+                                <p id="product-price"></p>
+                                <p id="product-Screen"></p>
+                                <p id="product-Battery"></p>
+                                <p id="product-Camera"></p>
+                            </div>
+                        </div>
+                </section>
+            </div>
+
+            <!-- service -->
+            <section id="service">
+                <div class="header">
+                    <h1>Servis</h1>
+                    <i class="fas fa-tools"></i>
+                </div>
+
+                <div class="service-container">
+                    <!-- Ganti Baterai -->
+                    <div class="service-box">
+                        <img src="item/service2.png">
+                        <h3>Ganti Baterai</h3> 
+                        <p>ALL Type</p>
+                        <div class="item"
+                                    onclick="showDetails('', 'Ganti Baterai', ' ','kualitas tejamin','dengan harga minim','')">
+                                    Details</div>
+                    </div>
+
+                    <!-- Ganti LCD -->
+                    <div class="service-box">
+                        <img src="item/serfice.png">
+                        <h3>Ganti LCD</h3>
+                        <p>ALL Type</p>
+                        <div class="item"
+                                    onclick="showDetails('', 'Ganti LCD', ' ','antrian cepat','dan amanah','')">
+                                    Details</div>
+                    </div>
+
+                    <!-- Service Speaker -->
+                    <div class="service-box">
+                        <img src="item/lap.png">
+                        <h3>Service Laptop</h3>
+                        <p>All Type</p>
+                        <div class="item"
+                                    onclick="showDetails('', 'Servis Laptop', ' ','pasti puas dengan','harga pas','')">
+                                    Details</div>
+                    </div>
+
+                    <!-- Pasang Anti Gores -->
+                    <div class="service-box">
+                        <img src="item/anres.png">
+                        <h3>Pasang Anti Gores</h3>
+                        <p>ALL Type</p>
+                        <div class="item"
+                                    onclick="showDetails('', 'Melayani pasang anti gores', ' ',' cepat aman','dan terpercaya ','')">
+                                    Details</div>
+                    </div>
+            </section>
+            <!-- Footer -->
+            <!-- Contact -->
+            <section id="contact">
+                <div class="hd-contact">
+                    <div class="header">
+                        <h1>Kontak</h1>
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact">
+                        <div class="contact-item">
+                            <span>Phone</span>
+                            <i class="fas fa-phone">082143658719</i>
+                            <span>Emai</span>
+                            <i class="fas fa-envilope">afainhere@gmail.com</i>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-instagram"></i>@AFA.CELL22</a>
+                            <a href="#"><i class="fab fa-twitter"></i>@AFA.CELL</a>
+                            <a href="#"><i class="fab fa-facebook"></i>AFA.CELL</a>
+                            <a href="#"><i class="fas fa-phone"></i>0821-2345-6789</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+    </div>
+    <!-- Footer -->
+    <footer>
+        afa05™
+    </footer>
+
+    <script>
+        function toggleLoginForm() {
+            const loginForm = document.getElementById('loginForm');
+            // Toggle kelas 'display: block' pada kolom login
+            if (loginForm.style.display === 'none' || loginForm.style.display === '') {
+                loginForm.style.display = 'block';
+            } else {
+                loginForm.style.display = 'none';
+            }
+        }
+
+        // Menutup form ketika area di luar form diklik
+        window.onclick = function (event) {
+            const loginForm = document.getElementById('loginForm');
+            if (event.target !== loginForm && !loginForm.contains(event.target) && event.target.className !== 'user-icon') {
+                loginForm.style.display = 'none';
+            }
+        }
+
+
+        // Fungsi untuk menampilkan modal dengan detail produk
+        function showDetails(name, price, description, Screen, Battery, Camera) {
+            document.getElementById('product-name').innerText = name;
+            document.getElementById('product-price').innerText = price;
+            document.getElementById("product-Screen").innerText = Screen;
+            document.getElementById("product-Battery").innerText = Battery;
+            document.getElementById("product-Camera").innerText = Camera;
+            document.getElementById('modal').style.display = 'flex';
+        }
+
+        // Fungsi untuk menutup modal
+        function closeModal() {
+            document.getElementById('modal').style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+html::-webkit-scrollbar{
+    width: 1.2rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: var(--bg-color);
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+}  
+
+
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+:root {
+    --main-color: #ff9100;
+    --second-color: #c7c7c7;
+    --text-color: #000000;
+    --bg-color: #ffffff;
+    /* box-shadow */
+    --box-shadow : 2px 2px 10px 4px rgba(44, 44, 44, 0.54);
+    --transparent-bg-color: rgba(255, 255, 255, 0.5);
+}
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    padding-top: 30px;
+    transition: 0.5s linear;
+    background: transparent;
+}
+.logo h1{
+   font-size: 1.5rem;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    padding: 8px 17px;
+    color: var(--text-color);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500; 
+}
+nav ul li a:hover{
+    color: var(--bg-color);
+    background: var(--main-color);
+    border-radius: 0.2rem;
+    transition: 0.2s all linear;
+}
+.button{
+    padding-top: 1vh;
+}
+.btn{
+    padding: 10px 30px;
+    border-radius: 0.3rem;
+    border: 1px solid var(--bg-color);
+    color: var(--text-color);
+    font: 500;
+}
+.btn:hover{
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg1.jpeg);
+    background-size: cover;
+}
+.home-text{
+    color: var(--bg-color);
+    padding-top: 20rem;
+    text-align: center;
+}
+.home-text p{
+    font-size: 1rem;
+}
+.home-text h1{
+    font-size: 4rem;
+}
+.home-button{
+    background: var(--transparent-bg-color);
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: 30px;
+    text-align: center;
+}
+.home-btn{
+    padding: 10px 30px;
+    border-radius: 0.3rem;
+    margin: 10px 5px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    box-shadow: var(--box-shadow);
+    font: 500;
+}
+.home-btn:hover{
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+.home-btn1{
+    padding: 10px 30px;
+    border-radius: 0.3rem;
+    background: var(--main-color);
+    color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+    font: 500;
+}
+.home-btn1:hover{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
